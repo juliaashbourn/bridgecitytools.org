@@ -1,128 +1,195 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HUNANIMA - Machines Agricoles Simples</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background-color: #2e7d32; /* Vert foncé */
-      color: #fdd835; /* Jaune vif */
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1.2em;
-    }
-    nav {
-      background-color: #fdd835;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #2e7d32;
-    }
-    .hero {
-      background: url('https://i.pinimg.com/550x/a9/df/51/a9df5172829f8c05f5b92f97553d41ae.jpg') no-repeat center center/cover;
-      height: 350px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 2px 2px 4px #000;
-      font-size: 2em;
-    }
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    section h2 {
-      color: #2e7d32;
-      margin-bottom: 20px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .gallery img {
-      width: 280px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    footer {
-      background-color: #2e7d32;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    footer p {
-      margin: 5px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIDGE CITY TOOLS LLC | Architectural Grade Hardware</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #0f172a;
+            font-family: 'Outfit', sans-serif;
+        }
+        .font-space {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        
+        /* 2026 Lite Electric Theme */
+        .text-bridge-blue { color: #2563eb; }
+        .bg-bridge-blue { background-color: #2563eb; }
+        .border-bridge-blue { border-color: #2563eb; }
+        
+        /* Floating Glass Dynamic Header */
+        .lite-capsule {
+            backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.75);
+            border: 1px solid rgba(15, 23, 42, 0.08);
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+        }
+        
+        /* Asymmetric Structural Cutouts */
+        .bridge-cut {
+            border-radius: 0px 60px 0px 60px;
+        }
+        @media (max-width: 768px) {
+            .bridge-cut { border-radius: 0px 30px 0px 30px; }
+        }
+        
+        /* Clean Kinetic Transitions */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+        }
+        .scroll-reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 </head>
-<body>
+<body class="antialiased overflow-x-hidden">
 
-  <header>
-    <h1>HUNANIMA</h1>
-    <p>Machines Agricoles Simples et Fiables</p>
-  </header>
+    <!-- NEW 2026 LITE ENTÊTE: Frosted Structural Navigation (No Numbers) -->
+    <nav class="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-5xl lite-capsule rounded-full px-6 py-4 flex items-center justify-between">
+        <a href="#" class="font-space font-bold text-lg md:text-xl tracking-tight text-slate-900 flex items-center gap-1">
+            BRIDGE<span class="text-bridge-blue">CITY</span>
+        </a>
+        <div class="flex items-center gap-6 md:gap-8 text-xs font-bold tracking-wider uppercase text-slate-600">
+            <a href="#structural-showcase" class="hover:text-bridge-blue transition-colors">Instruments</a>
+            <a href="#logistics-hub" class="hover:text-bridge-blue transition-colors">Distribution</a>
+            <a href="#intake-terminal" class="hover:text-bridge-blue transition-colors">Connect</a>
+        </div>
+        <a href="tel:14069247957" class="hidden md:inline-flex bg-bridge-blue text-white font-space font-bold text-xs px-5 py-2.5 rounded-full hover:bg-blue-700 transition duration-300 shadow-md shadow-blue-500/10">
+            Secure Call
+        </a>
+    </nav>
 
-  <nav>
-    <a href="#about">À propos</a>
-    <a href="#gallery">Galerie</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Hero Section (Light, Minimal Text, Deep Fluid Scrolling Feel) -->
+    <main class="relative min-h-screen flex items-center justify-center px-4 overflow-hidden pt-24 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:32px_32px]">
+        <div class="text-center max-w-4xl z-10">
+            <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full mb-6">
+                <span class="font-bold text-[10px] tracking-widest text-bridge-blue uppercase">Premium Heavy Distribution</span>
+            </div>
+            <h1 class="text-5xl md:text-8xl lg:text-9xl font-extrabold uppercase tracking-tighter leading-none text-slate-900 font-space mb-8">
+                STRUCTURAL <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-bridge-blue to-blue-500">HARDWARE</span>
+            </h1>
+            <p class="text-slate-500 text-sm md:text-lg max-w-xl mx-auto font-light tracking-wide mb-12">
+                High-caliber mechanical toolsets and specialized builder supplies precision-engineered for heavy commercial assemblies and industrial setups.
+            </p>
+            <div class="inline-flex items-center justify-center">
+                <a href="#structural-showcase" class="p-4 rounded-full border border-slate-200 bg-white hover:border-bridge-blue/40 transition-colors shadow-sm">
+                    <svg class="w-5 h-5 text-bridge-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                </a>
+            </div>
+        </div>
+    </main>
 
-  <div class="hero">
-    <p>Votre partenaire pour des machines agricoles durables</p>
-  </div>
+    <!-- Large Scale Architectural Breakout (Data Verified) -->
+    <section class="px-4 md:px-12 py-8">
+        <div class="w-full h-[55vh] md:h-[80vh] relative overflow-hidden bridge-cut border border-slate-200 shadow-xl bg-slate-100">
+            <!-- PHOTO 1: Clean High-Precision Mechanical Tools / Workmanship -->
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1400&auto=format&fit=crop" class="w-full h-full object-cover" alt="Elite Hardware Systems Detail">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-8 left-8 md:bottom-16 md:left-16 max-w-xl text-white">
+                <p class="text-bridge-blue uppercase font-space font-bold tracking-widest text-xs mb-2">// NODE RECOVERY: SCREENSHOT 2026-06-17 143822.JPG</p>
+                <h2 class="text-2xl md:text-5xl font-bold uppercase tracking-tight font-space">1948 N Ivy St Canby, OR</h2>
+            </div>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>À propos de nous</h2>
-    <p>
-      Chez <strong>HUNANIMA</strong>, nous nous spécialisons dans la fabrication et la distribution de 
-      <strong>machines agricoles simples</strong> pour faciliter le travail des agriculteurs. 
-      Nos solutions combinent <em>durabilité, efficacité et innovation</em> afin de répondre aux besoins de toutes les exploitations.
-    </p>
-  </section>
+    <!-- Deep Scrolling Photographic Sections (No Numbers, Completely Fluid) -->
+    <section id="structural-showcase" class="py-32 px-4 md:px-12 max-w-7xl mx-auto space-y-40">
+        
+        <!-- Showcase Block 1 -->
+        <div class="grid md:grid-cols-12 gap-12 items-center scroll-reveal">
+            <div class="md:col-span-7 overflow-hidden bridge-cut h-[380px] md:h-[550px] bg-slate-200 border border-slate-100 shadow-md">
+                <!-- PHOTO 2: Forged Metallic Wrench / Chrome Tools -->
+                <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615fd?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-103 transition duration-500 filter contrast-105" alt="Industrial Grade Steel Sockets">
+            </div>
+            <div class="md:col-span-5 md:pl-6">
+                <h3 class="text-2xl md:text-4xl font-space font-bold text-slate-900 uppercase mb-4">Architectural Instruments</h3>
+                <p class="text-slate-500 font-light leading-relaxed">High-torque professional wrenches, precision diagnostic instruments, and calibrated gear built for heavy mechanic requirements.</p>
+            </div>
+        </div>
 
-  <section id="gallery">
-    <h2>Nos Machines</h2>
-    <div class="gallery">
-      <img src="http://ogden_images.s3.amazonaws.com/www.motherearthnews.com/images/2014/11/22234423/Boaz-Mini-Combine-jpg.jpg" alt="Mini moissonneuse">
-      <img src="https://krs-agro.ru/products/zagotovka_kormov/elho/19/7.jpg" alt="Machine agricole">
-      <img src="https://img.mod-network.net/files/images/6218ac69d37fb/SimpleFarmSilov1000_6222.jpg" alt="Équipement agricole simple">
-    </div>
-  </section>
+        <!-- Showcase Block 2 -->
+        <div class="grid md:grid-cols-12 gap-12 items-center scroll-reveal">
+            <div class="md:col-span-5 md:order-2 lg:order-2 overflow-hidden bridge-cut h-[380px] md:h-[550px] bg-slate-200 border border-slate-100 shadow-md">
+                <!-- PHOTO 3: Heavy Logistics Hardware Setup -->
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-103 transition duration-500 filter contrast-105" alt="Hardware Supply Infrastructure">
+            </div>
+            <div class="md:col-span-7 md:order-1 lg:order-1 md:pr-6">
+                <h3 class="text-2xl md:text-4xl font-space font-bold text-slate-900 uppercase mb-4">Industrial Supply Supply</h3>
+                <p class="text-slate-500 font-light leading-relaxed">Bulk construction supply lines, structural contractor aggregates, and specialized estate garden apparatus built to elite commercial thresholds.</p>
+            </div>
+        </div>
 
-  <section id="contact">
-    <h2>Contactez-nous</h2>
-    <p><strong>Email :</strong> admin@tyusex.shop</p>
-    <p><strong>Téléphone :</strong> +33 7 38 50 26 36</p>
-    <p><strong>Adresse :</strong> Avenue Baratier, Montmorency, 95160, France</p>
-  </section>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 HUNANIMA - Tous droits réservés.</p>
-  </footer>
+    <!-- High-Impact Light Banner Monolith -->
+    <section id="logistics-hub" class="py-32 bg-slate-900 text-white text-center px-4 relative">
+        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
+        <div class="max-w-3xl mx-auto z-10 relative scroll-reveal">
+            <h2 class="text-3xl md:text-6xl font-space font-bold uppercase tracking-tight mb-6">SNAP-ON LEVEL EXCELLENCE</h2>
+            <p class="text-slate-400 font-light text-base md:text-lg mb-10">Bridge City Tools LLC operations are certified to coordinate directly with top-tier industrial building standards, offering zero latency on premium material allocation.</p>
+            <div class="inline-block bg-bridge-blue text-white font-space font-bold text-sm uppercase px-10 py-5 bridge-cut tracking-wider shadow-lg shadow-blue-600/20">
+                Verified Enterprise Channel
+            </div>
+        </div>
+    </section>
 
+    <!-- NEW 2026 PIED DE PAGE: Clean Slate Geo-Footer (Light-to-Dark Transition) -->
+    <footer id="intake-terminal" class="bg-slate-50 text-slate-900 relative border-t border-slate-200 pt-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 md:px-12 grid lg:grid-cols-12 gap-16 pb-20">
+            
+            <div class="lg:col-span-6 flex flex-col justify-between space-y-12">
+                <div>
+                    <h3 class="text-4xl md:text-6xl font-space font-bold uppercase tracking-tighter mb-4">
+                        ESTABLISH THE <br><span class="text-bridge-blue">CONNECTION.</span>
+                    </h3>
+                    <p class="text-slate-400 font-light max-w-sm">Direct communications portal routed to the Canby, Oregon network terminal. Reach out for freight batch pricing profiles.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row items-start gap-6">
+                    <a href="mailto:contact@bridgecitytools.org" class="text-lg md:text-2xl font-space font-bold border-b-2 border-bridge-blue text-slate-900 hover:text-bridge-blue transition-colors break-all">
+                        contact@bridgecitytools.org
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-6 flex flex-col justify-between items-start lg:items-end space-y-12">
+                <div class="w-full lg:text-right">
+                    <p class="text-slate-400 uppercase font-space text-[11px] tracking-widest mb-1">// SECURE LINE</p>
+                    <a href="tel:14069247957" class="text-3xl md:text-5xl font-black font-space text-slate-900 hover:text-bridge-blue transition-colors">
+                        +1 (406) 924-7957
+                    </a>
+                </div>
+                <div class="w-full lg:text-right font-light text-sm text-slate-500 leading-relaxed uppercase">
+                    Bridge City Tools LLC<br>
+                    1948 N Ivy St Canby, OR<br>
+                    97013-3173 United States
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Clean Technical Bottom Strip -->
+        <div class="border-t border-slate-200 bg-slate-100 px-4 md:px-12 py-6 flex flex-col sm:flex-row justify-between items-center text-[10px] tracking-widest text-slate-400 font-mono uppercase gap-4">
+            <p>&copy;  BRIDGE CITY TOOLS LLC. CORE CHANNELS ACTIVE.</p>
+            <p>CANBY HARDWARE MATRIX // OREGON // USA</p>
+        </div>
+    </footer>
+
+    <!-- Simple Scroll Reveal Script -->
+    <script>
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
+    </script>
 </body>
 </html>
